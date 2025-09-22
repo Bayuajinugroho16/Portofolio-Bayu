@@ -1,0 +1,57 @@
+/* Reset sederhana */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Hero */
+header {
+  background: #1e293b;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+nav {
+  margin-top: 1rem;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Sections */
+section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+#about {
+  background: #e2e8f0
+;
+}
+#projects {
+  background: #e2e8f0;
+}
+
+/* Project Card */
+.project-card {
+  background: white;
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background: #1e293b;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
